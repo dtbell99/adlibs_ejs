@@ -1,0 +1,17 @@
+{
+    "adjective": [
+        "happy", "sad", "fat", "skinny", "tall", "short"
+    ],
+    "nationality": [
+        "American", "Australian", "Belgian", "Canadian", "Chinese", "French", "German", "Italian", "Mexican", "Swedish"
+    ],
+    "person": [
+        "David Bell", "Bob Smith"
+    ],
+    "noun": [
+        "ball", "toilet", "bike"
+    ],
+    "pluralnoun": [
+        "french fries", "soccer balls", "shoes", "dogs"
+    ]
+}
