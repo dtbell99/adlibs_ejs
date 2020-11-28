@@ -10,7 +10,9 @@ const lunchroom = {
   title: 'What happens in the lunchroom, stays in the lunchroom',
   text: 'Lunchtime in our cafeteria is always <%= question1.answer %>. '
   + 'They serve hot <%= question2.answer %> and <%= question3.answer %>, but some students <%= question4.answer %> their own <%= question5.answer %> to eat. '
-  + 'Some kids quietly <%= question6.answer %> their <%= question7.answer %>, while others throw <%= question8.answer %> or <%= question9.answer %> when teachers aren\'t looking. ',
+  + 'Some kids quietly <%= question6.answer %> their <%= question7.answer %>, while others throw <%= question8.answer %> or <%= question9.answer %> when teachers aren\'t looking. '
+  + 'One time, a bunch of kids mixed all of their unfinished <%= question10.answer %> and <%= question11.answer %> together to make a <%= question12.answer %> mountain of <%= question13.answer %> on a <%= question14.answer %>. '
+  + 'The teachers were <%= question15.answer %>, but everyone had already <%= question16.answer %> outside for recess, so nobody got in trouble.',
   questions: {
     question1: { type: 'adjective' },
     question2: { type: 'food' },
@@ -20,7 +22,14 @@ const lunchroom = {
     question6: { type: 'verb' },
     question7: { type: 'food' },
     question8: { type: 'vegetables' },
-    question9: { type: 'fruits' }
+    question9: { type: 'fruits' },
+    question10: { type: 'food' },
+    question11: { type: 'food' },
+    question12: { type: 'adjective' },
+    question13: { type: 'noun' },
+    question14: { type: 'furniture' },
+    question15: { type: 'emotion' },
+    question16: { type: 'verb-ed' }
   }
 };
 

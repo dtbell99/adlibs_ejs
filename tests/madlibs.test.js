@@ -14,10 +14,19 @@ describe('madlibs', () => {
       lunchroom.questions.question7.answer = 'cabbage';
       lunchroom.questions.question8.answer = 'carrots';
       lunchroom.questions.question9.answer = 'apples';
+      lunchroom.questions.question10.answer = 'applesauce';
+      lunchroom.questions.question11.answer = 'cookies';
+      lunchroom.questions.question12.answer = 'giant';
+      lunchroom.questions.question13.answer = 'dirt';
+      lunchroom.questions.question14.answer = 'chair';
+      lunchroom.questions.question15.answer = 'angry';
+      lunchroom.questions.question16.answer = 'moved';
 
       const expectedResult = 'Lunchtime in our cafeteria is always silly. '
       + 'They serve hot biscuits and crackers, but some students fly their own garbage to eat. '
-      + 'Some kids quietly sniff their cabbage, while others throw carrots or apples when teachers aren\'t looking. ';
+      + 'Some kids quietly sniff their cabbage, while others throw carrots or apples when teachers aren\'t looking. '
+      + 'One time, a bunch of kids mixed all of their unfinished applesauce and cookies together to make a giant mountain of dirt on a chair. '
+      + 'The teachers were angry, but everyone had already moved outside for recess, so nobody got in trouble.';
       const actualResult = madlibs.generate(lunchroom);
 
       assert.strictEqual(actualResult, expectedResult);

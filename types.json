@@ -28,5 +28,20 @@
     ],
     "fruits": [
         "apples", "oranges"
+    ],
+    "furniture": [
+        "chair", "couch", "lamp", "chest"
+    ],
+    "verb": [
+        "jump", "run", "swim", "fly"
+    ],
+    "nouns": [
+        "cars", "trucks", "bikes"
+    ],
+    "emotion": [
+        "happy", "sad", "angry"
+    ],
+    "verb-ed": [
+        "moved", "jumped"
     ]
 }
