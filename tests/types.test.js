@@ -65,4 +65,20 @@ describe('types', () => {
     const actualArray = types.food;
     assert.deepStrictEqual(actualArray, expectedArray);
   });
+
+  it('should return correct vegetables array', () => {
+    const expectedArray = [
+      'carrots', 'lettuce', 'peas', 'green beans'
+    ];
+    const actualArray = types.vegetables;
+    assert.deepStrictEqual(actualArray, expectedArray);
+  });
+
+  it('should return correct fruits array', () => {
+    const expectedArray = [
+      'apples', 'oranges'
+    ];
+    const actualArray = types.fruits;
+    assert.deepStrictEqual(actualArray, expectedArray);
+  });
 });

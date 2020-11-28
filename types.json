@@ -22,5 +22,11 @@
     ],
     "food": [
         "turkey", "chicken", "oatmeal"
+    ],
+    "vegetables": [
+        "carrots", "lettuce", "peas", "green beans"
+    ],
+    "fruits": [
+        "apples", "oranges"
     ]
 }
