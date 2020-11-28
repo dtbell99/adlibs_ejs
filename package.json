@@ -1,0 +1,29 @@
+{
+  "name": "madlibs_ejs",
+  "version": "1.0.0",
+  "description": "A simple madlibs clone",
+  "main": "index.js",
+  "directories": {
+    "src": "src",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./tests/*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtbell99/madlibs_ejs.git"
+  },
+  "keywords": [
+    "madlibs",
+    "ejs",
+    "speech",
+    "synthesis"
+  ],
+  "author": "David Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtbell99/madlibs_ejs/issues"
+  },
+  "homepage": "https://github.com/dtbell99/madlibs_ejs#readme"
+}
