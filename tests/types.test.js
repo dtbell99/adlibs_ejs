@@ -41,4 +41,28 @@ describe('types', () => {
     const actualArray = types.pluralnoun;
     assert.deepStrictEqual(actualArray, expectedArray);
   });
+
+  it('should return correct number array', () => {
+    const expectedArray = [
+      '1', '10', '25', '100'
+    ];
+    const actualArray = types.number;
+    assert.deepStrictEqual(actualArray, expectedArray);
+  });
+
+  it('should return correct shapes array', () => {
+    const expectedArray = [
+      'squares', 'triangles', 'circles'
+    ];
+    const actualArray = types.shapes;
+    assert.deepStrictEqual(actualArray, expectedArray);
+  });
+
+  it('should return correct food array', () => {
+    const expectedArray = [
+      'turkey', 'chicken', 'oatmeal'
+    ];
+    const actualArray = types.food;
+    assert.deepStrictEqual(actualArray, expectedArray);
+  });
 });

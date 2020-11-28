@@ -13,5 +13,14 @@
     ],
     "pluralnoun": [
         "french fries", "soccer balls", "shoes", "dogs"
+    ],
+    "number": [
+        "1", "10", "25", "100"
+    ],
+    "shapes": [
+        "squares", "triangles", "circles"
+    ],
+    "food": [
+        "turkey", "chicken", "oatmeal"
     ]
 }
