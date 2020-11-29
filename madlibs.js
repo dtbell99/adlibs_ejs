@@ -6,6 +6,41 @@ const generate = (obj) => {
   return result;
 };
 
+const weirdnews = {
+  title: 'Weird News',
+  text: 'In <%= question1.answer %> in <%= question2.answer %> was arrested this morning after he <%= question3.answer %> a in front of <%= question4.answer %>. '
+    + '<%= question5.answer %>, had a history of <%= question6.answer %>, but no one-not even his <%= question7.answer %> ever imagined he would <%= question8.answer %> with a <%= question9.answer %> stuck in his <%= question10.answer %>. '
+  + 'I always thought he was <%= question11.answer %>, but I never thought he would do something like this. Even his <%= question12.answer %> was surprised. '
+  + 'After a brief <%= question13.answer %>, cops followed him to a <%= question14.answer %>, where is reportedly <%= question15.answer %> in the fry machine. '
+  + 'In <%= question16.answer %>, a woman was charged with a similar crime. But rather than <%= question17.answer %> with a <%= question18.answer %>, she <%= question19.answer %> with a <%= question20.answer %> dog. '
+  + 'Either way, we imagine that after witnessing him <%= question21.answer %> with a <%= question22.answer %> there are probably a whole lot of <%= question23.answer %> that are going to need some therapy.',
+  questions: {
+    question1: { type: 'noun' },
+    question2: { type: 'state' },
+    question3: { type: 'verb' },
+    question4: { type: 'noun' },
+    question5: { type: 'propernoun' },
+    question6: { type: 'verb' },
+    question7: { type: 'noun' },
+    question8: { type: 'verb' },
+    question9: { type: 'noun' },
+    question10: { type: 'bodypart' },
+    question11: { type: 'adjective' },
+    question12: { type: 'relative' },
+    question13: { type: 'activity' },
+    question14: { type: 'restaurant' },
+    question15: { type: 'verbpasttense' },
+    question16: { type: 'month' },
+    question17: { type: 'verb' },
+    question18: { type: 'noun' },
+    question19: { type: 'verbpasttense' },
+    question20: { type: 'adjective' },
+    question21: { type: 'verb' },
+    question22: { type: 'noun' },
+    question23: { type: 'pluralnoun' }
+  }
+};
+
 const lunchroom = {
   title: 'What happens in the lunchroom, stays in the lunchroom',
   text: 'Lunchtime in our cafeteria is always <%= question1.answer %>. '
@@ -18,7 +53,7 @@ const lunchroom = {
     question2: { type: 'food' },
     question3: { type: 'food' },
     question4: { type: 'verb' },
-    question5: { type: 'nouns' },
+    question5: { type: 'pluralnoun' },
     question6: { type: 'verb' },
     question7: { type: 'food' },
     question8: { type: 'vegetables' },
@@ -29,7 +64,7 @@ const lunchroom = {
     question13: { type: 'noun' },
     question14: { type: 'furniture' },
     question15: { type: 'emotion' },
-    question16: { type: 'verb-ed' }
+    question16: { type: 'verbed' }
   }
 };
 
@@ -64,5 +99,6 @@ const pizza = {
 module.exports = {
   pizza,
   lunchroom,
+  weirdnews,
   generate
 };

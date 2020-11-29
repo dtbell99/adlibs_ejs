@@ -1,47 +1,199 @@
 {
-    "adjective": [
-        "happy", "sad", "fat", "skinny", "tall", "short"
-    ],
-    "nationality": [
-        "American", "Australian", "Belgian", "Canadian", "Chinese", "French", "German", "Italian", "Mexican", "Swedish"
-    ],
-    "person": [
-        "David Bell", "Bob Smith"
-    ],
-    "noun": [
-        "ball", "toilet", "bike"
-    ],
-    "pluralnoun": [
-        "french fries", "soccer balls", "shoes", "dogs"
-    ],
-    "number": [
-        "1", "10", "25", "100"
-    ],
-    "shapes": [
-        "squares", "triangles", "circles"
-    ],
-    "food": [
-        "turkey", "chicken", "oatmeal"
-    ],
-    "vegetables": [
-        "carrots", "lettuce", "peas", "green beans"
-    ],
-    "fruits": [
-        "apples", "oranges"
-    ],
-    "furniture": [
-        "chair", "couch", "lamp", "chest"
-    ],
-    "verb": [
-        "jump", "run", "swim", "fly"
-    ],
-    "nouns": [
-        "cars", "trucks", "bikes"
-    ],
-    "emotion": [
-        "happy", "sad", "angry"
-    ],
-    "verb-ed": [
-        "moved", "jumped"
+  "adjective": {
+    "label": "Adjective",
+    "description": "a word or phrase naming an attribute, added to or grammatically related to a noun to modify or describe it.",
+    "example": [
+      "happy",
+      "sad",
+      "fat",
+      "skinny",
+      "tall",
+      "short"
     ]
+  },
+  "nationality": {
+    "label": "Nationality",
+    "description": "distinctive national or ethnic character.",
+    "example": [
+      "American",
+      "Australian",
+      "Belgian",
+      "Canadian",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Mexican",
+      "Swedish"
+    ]
+  },
+  "person": {
+    "label": "Person",
+    "description": "a human being regarded as an individual.",
+    "example": [
+      "David Bell",
+      "Bob Smith"
+    ]
+  },
+  "noun": {
+    "label": "Noun",
+    "description": "a word used to identify any of a class of people, places, or things.",
+    "example": [
+      "ball",
+      "toilet",
+      "bike"
+    ]
+  },
+  "pluralnoun": {
+    "label": "Plural Noun",
+    "description": "a word used to identify many of a class of people, places, or things.",
+    "example": [
+      "french fries",
+      "soccer balls",
+      "shoes",
+      "dogs"
+    ]
+  },
+  "number": {
+    "label": "Number",
+    "description": "an arithmetical value representing a particular quantity and used in counting and making calculations and for showing order in a series or for identification.",
+    "example": [
+      "1",
+      "10",
+      "25",
+      "100"
+    ]
+  },
+  "shapes": {
+    "label": "Shapes",
+    "description": "the external form, contours, or outline of someone or something.",
+    "example": [
+      "squares",
+      "triangles",
+      "circles"
+    ]
+  },
+  "food": {
+    "label": "Food",
+    "description": "any nutritious substance that people or animals eat or drink or that plants absorb in order to maintain life and growth.",
+    "example": [
+      "turkey",
+      "chicken",
+      "oatmeal"
+    ]
+  },
+  "vegetables": {
+    "label": "Vegetables",
+    "description": "a plant or part of a plant used as food, typically as accompaniment to meat or fish, such as a cabbage, potato, carrot, or bean.",
+    "example": [
+      "carrots",
+      "lettuce",
+      "peas",
+      "green beans"
+    ]
+  },
+  "fruits": {
+    "label": "Fruits",
+    "description": "the sweet and fleshy product of a tree or other plant that contains seed and can be eaten as food.",
+    "example": [
+      "apples",
+      "oranges"
+    ]
+  },
+  "furniture": {
+    "label": "Furniture",
+    "description": "",
+    "example": [
+      "chair",
+      "couch",
+      "lamp",
+      "chest"
+    ]
+  },
+  "verb": {
+    "label": "Verb",
+    "description": "a word used to describe an action, state, or occurrence.",
+    "example": [
+      "jump",
+      "run",
+      "swim",
+      "fly"
+    ]
+  },
+  "emotion": {
+    "label": "Emotion",
+    "description": "a natural instinctive state of mind deriving from one's circumstances, mood, or relationships with others.",
+    "example": [
+      "happy",
+      "sad",
+      "angry"
+    ]
+  },
+  "verbed": {
+    "label": "Verb-ed",
+    "description": "a word used to describe an action, state, or occurrence ending in ed.",
+    "example": [
+      "moved",
+      "jumped"
+    ]
+  },
+  "state": {
+    "label": "State",
+    "description": "a nation or territory considered as an organized political community under one government.",
+    "example": [
+      "Indiana",
+      "New Hampshire",
+      "Michigan"
+    ]
+  },
+  "propernoun": {
+    "label": "Proper Noun",
+    "description": "a name used for an individual person, place, or organization, spelled with initial capital letters, e.g., Larry, Mexico, and Boston Red Sox.",
+    "example": [
+      "Boston Red Sox",
+      "Mexico"
+    ]
+  },
+  "bodypart": {
+    "label": "Body Part",
+    "description": "",
+    "example": [
+      "arm", "leg", "foot", "hand"
+    ]
+  },
+  "relative": {
+    "label": "Relative",
+    "description": "a person connected by blood or marriage.",
+    "example": [
+      "aunt",
+      "uncle",
+      "cousin"
+    ]
+  },
+  "activity": {
+    "label": "Activity",
+    "description": "a thing that a person or group does or has done.",
+    "example": [
+      "run", "hike", "jog"
+    ]
+  },
+  "restaurant": {
+    "label": "Restaurant",
+    "description": "a place where people pay to sit and eat meals that are cooked and served on the premises.",
+    "example": [
+      "McDonalds", "Jimmy Johns", "Burger King"
+    ]
+  },
+  "verbpasttense": {
+    "label": "Verb Past Tense",
+    "description": "a word used to describe an action, state, or occurrence that occurred in the past.",
+    "example": ["ran", "jumped", "jogged"]
+  },
+  "month": {
+    "label": "Month",
+    "description": "A month is a unit of time, used with calendars, which is approximately as long as a natural period related to the motion of the Moon",
+    "example": [
+      "January", "February", "March"
+    ]
+  }
 }
